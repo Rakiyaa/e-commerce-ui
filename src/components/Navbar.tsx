@@ -27,10 +27,11 @@ const Navbar = () => {
                 </Link>
                 <Bell className="w-4 h-4 text-gray-600"/>
                 <ShoppingCart className="w-4 h-4 text-gray-600"/>
+                <Link href="/login">Sign In</Link>
             </div>
 
         </nav>
-    )  
-} 
+    );  
+} ;
 
 export default Navbar  
